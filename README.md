@@ -5,7 +5,8 @@
 
 Validity Checker is a library that simply evaluates the correctness of `emails` and `passwords`.
 
-![validity_checker](https://user-images.githubusercontent.com/54077752/209865234-7715f22e-c2bf-4e84-8d04-57679ea0824e.png)
+<img height="240" src="https://user-images.githubusercontent.com/54077752/209865234-7715f22e-c2bf-4e84-8d04-57679ea0824e.png" />
+
 
 ### A valid email must:
 
