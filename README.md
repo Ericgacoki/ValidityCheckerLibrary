@@ -87,9 +87,7 @@ if (isValidPassword(password) is Valid) {
 }
 ```
 
-`NOTE:
-
-In cases where a password needs to be compared alongside another one for confirmation, you have to
+> **_NOTE:_** In cases where a password needs to be compared alongside another one for confirmation, you have to
 check that as shown below:
 
 ```kotlin
@@ -110,6 +108,6 @@ That's all for now. Issues and PRs are very much welcome 😋
 Resources
 ---
 
-- [Documentation]("https://jitpack.io/")
-- [How to Create and Publish your own Android Library]("https://www.section.io/engineering-education/how-to-create-and-publish-your-own-android-library/")
+- [Documentation](https://jitpack.io/)
+- [How to Create and Publish your own Android Library](https://www.section.io/engineering-education/how-to-create-and-publish-your-own-android-library/)
   by @JoelKanyi
