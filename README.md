@@ -1,5 +1,4 @@
-[![Release](https://jitpack.io/v/User/Repo.svg)]
-(https://jitpack.io/#User/Repo)
+[![Release](https://jitpack.io/v/Ericgacoki/ValidityCheckerLibrary.svg)](https://jitpack.io/#Ericgacoki/ValidityCheckerLibrary)
 
 ## Wtf is this?
 ---
