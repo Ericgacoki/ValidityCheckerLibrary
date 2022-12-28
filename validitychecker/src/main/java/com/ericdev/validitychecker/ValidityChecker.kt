@@ -8,7 +8,7 @@ sealed class ValidityChecker(val message: String = "") {
     data class InValid(val reason: String) : ValidityChecker(message = reason)
 
     companion object {
-        internal fun isValidEmail(email: String): ValidityChecker {
+        fun isValidEmail(email: String): ValidityChecker {
             val valid = !TextUtils.isEmpty(email) && Patterns.EMAIL_ADDRESS.matcher(email).matches()
             return if (valid) {
                 Valid
@@ -19,7 +19,7 @@ sealed class ValidityChecker(val message: String = "") {
             }
         }
 
-        internal fun isValidPassword(password: String): ValidityChecker {
+        fun isValidPassword(password: String): ValidityChecker {
             if (password.length < 8) return InValid("Too short")
             if (password.firstOrNull { it.isDigit() } == null) return InValid("Must contain a digit")
             if (password.filter { it.isLetter() }
