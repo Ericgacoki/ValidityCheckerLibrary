@@ -1,5 +1,5 @@
 [![Release](https://jitpack.io/v/User/Repo.svg)]
-(https://jitpack.io/Ericgacoki/ValidityCheckerLibrary)
+(https://jitpack.io/#User/Repo)
 
 ## Wtf is this?
 ---
@@ -87,8 +87,7 @@ if (isValidPassword(password) is Valid) {
 }
 ```
 
-> **_NOTE:_** In cases where a password needs to be compared alongside another one for confirmation, you have to
-check that as shown below:
+> **_NOTE:_** In cases where a password needs to be compared alongside another one for confirmation, you have to check that as shown below:
 
 ```kotlin
 val password = "..."
@@ -101,8 +100,6 @@ if (isValidPassword(password) is Valid &&
 }
 ```
 
-`
-
 That's all for now. Issues and PRs are very much welcome 😋
 
 Resources
@@ -110,4 +107,4 @@ Resources
 
 - [Documentation](https://jitpack.io/)
 - [How to Create and Publish your own Android Library](https://www.section.io/engineering-education/how-to-create-and-publish-your-own-android-library/)
-  by @JoelKanyi
+  by [@JoelKanyi](https://github.com/JoelKanyi)
